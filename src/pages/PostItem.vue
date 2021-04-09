@@ -23,7 +23,7 @@ export default {
   methods: {
     getData() {
       this.axios(
-        `https://api.fit-sit.com/wp-json/wp/v2/posts/${this.$route.params.id}`
+        `http://api.fit-sit.com/wp-json/wp/v2/posts/${this.$route.params.id}`
       ).then(
         (res) => {
           this.post = res?.data;

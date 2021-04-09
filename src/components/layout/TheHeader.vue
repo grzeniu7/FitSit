@@ -122,10 +122,10 @@ export default {
   height: 100vh;
   width: 8rem;
   transform: translateX(8rem);
+  opacity: 0.8;
 
   &--active {
     transform: translateX(0rem);
-    opacity: 0.8;
   }
   &__link {
     display: block;

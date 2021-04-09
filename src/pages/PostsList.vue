@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     getData() {
-      this.axios("https://api.fit-sit.com/wp-json/wp/v2/posts").then(
+      this.axios("http://api.fit-sit.com/wp-json/wp/v2/posts").then(
         (res) => {
           for (let post in res.data) {
             console.log(res);
